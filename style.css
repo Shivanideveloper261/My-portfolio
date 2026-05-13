@@ -56,3 +56,23 @@ li{
 section:nth-child(even){
     background:#181818;
 }
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#0f0f0f,#1d1d1d);
+}
+
+.hero-text{
+    max-width:700px;
+}
+
+.hero h1{
+    font-size:80px;
+}
+
+.hero p{
+    font-size:30px;
+    margin-bottom:30px;
+}
